@@ -1,1 +1,8 @@
+Nume: Fromea Dragos-Florin Grupa: 322 CC
+Nume proiect: IMDB
+
+
+Pentru acest proiect am folosit Java pentru a crea proiectul, putand fi rulat in terminal, fiind ajutat de SWING pentru a crea interfata grafica. Folosirea aplicatiei prin intermediul terminalului a fost implementata in clasa principala IMDB, fiind responsabila cu retinerea datelor, pornirea aplicatiei si logarea utilizatorului. Pentru gestionarea utilizatorilor au fost create clasele "User", "Regular", "Contributor" si "Admin", alaturi de clasa "Staff" responsabila cu administrarea cererilor din aplicatie. De asemenea, au fost create clasele "Production", "Movie", "Series", "Episode" si "Actor" pentru a oferi utilizatorului informatii despre anumite productii si actori. Clasele "Request" si "RequestHolder" au folosit la coordonarea cererilor create de utilizatori, iar clasa "Rating" la recenziile acestora. Am creat separat fisiere pentru enum, exceptii si interfete, precum si pentru pattern-ul "Strategy", restul pattern- urilor fiind implementate in clasele mentionate anterior. Restul claselor au contribuit la crearea interfetei grafice.
+Ca optiuni suplimentarea am adaugat functia de a le da recenzii si actorilor, astfel incat userul care a introdus actorul in sistem sa primeasca notificari atunci cand acesta primeste o recenzie, dar si userul care a dat recenzia sa primeasca notificare atunci cand acelasi actor primeste alta recenzie. De asemenea, am importata java.net.URL pentru a seta icon-ul cu o poza specifica.
+Gradul de dificultate al temei a fost unul mediu. Timp alocat rezolvarii temei: 50h
 # IMDB
